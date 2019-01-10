@@ -5,7 +5,7 @@ Ordinary Least Squares: In statistics, ordinary least squares(OLS) or linear lea
 
  
 Objective Function: OLS as a Quadratic Program
-β ̂=argmin/(βϵR^p ) ∑▒〖〖_i〗=1^n (y_i-x_i^' β)^2 〗 			(Ordinary Least Squares)
+$β ̂=argmin/(βϵR^p ) ∑▒〖〖_i〗=1^n (y_i-x_i^' β)^2 〗 	$		(Ordinary Least Squares)
 β ̂=argmin/(βϵR^p ) (-2 β’X’y+ β'X’X β)				(OLS as a Quadratic Program)
 Constraints: The constraint matrix is the feature matrix with weight vectors for each feature>= the target feature,
 		i.e.   X β≥y
